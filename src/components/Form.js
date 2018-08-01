@@ -6,7 +6,15 @@ class Form extends React.Component {
 
     return(
 
-      <div>I am the form component!</div>
+      <form>
+
+        <label>
+          City:
+          <input type="text" name="city" />
+        </label>
+        <input type="submit" value="Submit" />
+
+      </form>
 
     );
 
